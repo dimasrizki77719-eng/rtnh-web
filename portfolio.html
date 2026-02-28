@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | rtnh</title>
+    <style>
+        :root { --accent: #0088ff; --bg: #050505; }
+        body { background: var(--bg); color: white; font-family: sans-serif; padding: 30px 20px; }
+        
+        .header { margin-bottom: 40px; }
+        .back-btn { color: var(--accent); text-decoration: none; font-size: 14px; display: inline-block; margin-bottom: 20px; }
+        
+        h1 { font-size: 28px; margin-bottom: 10px; }
+        .grid { display: grid; gap: 20px; }
+        
+        .project-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+        }
+        
+        .project-card h3 { color: var(--accent); margin-bottom: 8px; }
+        .project-card p { font-size: 14px; color: #aaa; line-height: 1.6; }
+        .tag { display: inline-block; background: rgba(0, 136, 255, 0.1); color: var(--accent); font-size: 11px; padding: 4px 8px; border-radius: 5px; margin-top: 10px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <a href="index.html" class="back-btn">← Kembali</a>
+        <h1>My Projects</h1>
+        <p style="color: #666;">Karya yang saya buat di High School Web</p>
+    </div>
+
+    <div class="grid">
+        <div class="project-card">
+            <h3>Personal Link Tree</h3>
+            <p>Website landing page pertama saya yang dibuat menggunakan iPhone dengan aplikasi Koder.</p>
+            <div class="tag">HTML5</div> <div class="tag">CSS3</div> <div class="tag">MOBILE DEV</div>
+        </div>
+
+        <div class="project-card">
+            <h3>Future Project</h3>
+            <p>Sedang dalam tahap pengembangan. Segera hadir!</p>
+            <div class="tag">COMING SOON</div>
+        </div>
+    </div>
+
+</body>
+</html>
